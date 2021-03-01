@@ -123,6 +123,11 @@ textarea {
   resize: vertical;
   padding-top: 8px;
 }
+.input_disabled {
+  border: rgb(32, 46, 179) solid 1px;
+  background-color: rgba(32, 47, 179, 0.048);
+  color: black;
+}
 .decimal_input {
   margin-bottom: 0;
 }
@@ -142,7 +147,7 @@ textarea {
 }
 button {
   width: 145px;
-  height: 50px;
+  height: 48px;
   background-color: rgb(32, 46, 179);
   color: white;
   border: none;
