@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script rel="stylesheet" src="index.js"></script>
+    <title>AnyConverter</title>
+  </head>
+  <body>
+    <!-- <div id="side_nav" class="side_nav">
+      <div class="close_div">
+        <div id="close" class="close" onclick="Close()" class="close">x</div>
+      </div>
+    </div> -->
+    <div class="header">
+      <div id="hamburger" class="hamburger">|||</div>
+      <div class="logo_cont">
+        <img class="logo" src="logo2.png" alt="" />
+        <p class="logo_name">AnyConverter</p>
+      </div>
+    </div>
+    <div class="main">
+      <div class="container">
+        <div class="name">Decimal to Binary</div>
+        <div class="action_box">
+          <div id="decimal_name" class="sub decimal_name">Decimal</div>
+          <textarea id="decimal" class="decimal_input" type="text"></textarea>
+          <p id="error" class="error">Input must be a valid number.</p>
+          <div class="sub" style="margin-top: 20px">Binary</div>
+          <textarea
+            id="binary"
+            class="input_disabled"
+            type="text"
+            disabled="true"
+          ></textarea>
+          <div class="buttons">
+            <button onclick="binary()">Convert</button>
+            <button onclick="reset()">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
