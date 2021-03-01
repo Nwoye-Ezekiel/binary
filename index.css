@@ -3,7 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,
 body {
+  height: 100%;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto-Black.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(Montserrat-Regular.ttf);
+}
+body {
+  height: 100%;
   position: relative;
   background-color: #f7f7f7;
   font-family: montserrat;
@@ -31,7 +44,7 @@ body {
   font-size: 30px;
 }
 .close {
-    width: fit-content;
+  width: fit-content;
   cursor: pointer;
 }
 .close:hover {
@@ -124,9 +137,6 @@ textarea {
 .sub {
   font-size: 18px;
   font-family: Helvetica;
-}
-.input_disabled {
-  color: #000000;
 }
 .buttons {
   display: flex;
