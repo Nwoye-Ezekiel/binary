@@ -16,6 +16,7 @@ function binary() {
     !num.includes("-")
   ) {
     if (num.includes(".")) {
+document.getElementById("error").style.display = "none";
       let temp = num.slice(num.indexOf("."));
       temp = temp * 2;
       let j = 1;
